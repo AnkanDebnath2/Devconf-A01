@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+.logo-image{
+    height: 44px; 
+    width: auto;
+
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.register-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #1d4ed8;
+}
+
+
