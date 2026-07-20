@@ -93,6 +93,7 @@
 .section-title {
   font-size: 48px;
   margin-bottom: 50px;
+  font-family: sans-serif;
 }
 .speakers-grid {
   display: grid;
@@ -188,7 +189,7 @@
 
 .price {
     font-size: 64px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 1;
     margin: 5px 0 5px 0;
     color: #000000;
@@ -298,3 +299,45 @@
     
     
 
+.schedule-section {
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.schedule-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.schedule-list {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.schedule-time {
+  width: 90px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: #2563eb;
+  font-size: 14px;
+}
+
+.schedule-details h4 {
+  font-size: 16px;
+  margin: 0 0 4px 0;
+}
+
+.schedule-details p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
